@@ -1,0 +1,69 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.posts {
+  max-width: 720px;
+
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 3rem;
+    }
+
+    strong {
+      display: block;
+      font-weight: 700;
+      font-size: 1.75rem;
+      line-height: 2.125rem;
+      transition: color 0.2s;
+      color: var(--heading);
+    }
+
+    p {
+      color: var(--body);
+      font-size: 1.125rem;
+      margin-top: 0.5rem;
+      line-height: 1.375rem;
+    };
+
+    .infoContainer {
+      display: flex;
+      margin-top: 1.5rem;
+
+      div {
+        display: flex;
+
+        time, span, svg {
+          color: var(--info);
+          font-size: 0.875rem;
+          line-height: 1.063rem;
+        }
+
+        svg {
+          margin-right: 0.5rem;
+        }
+
+        & + div {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.button {
+  margin-top: 4rem;
+  color: var(--hightlight);
+  font-weight: 600;
+  border: 0;
+  background: transparent;
+  font-size: 1.125rem;
+}
+
+.logo {
+  margin: 4.972rem 0 4.051rem;
+}

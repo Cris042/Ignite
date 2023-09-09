@@ -1,0 +1,55 @@
+.container {
+  margin: 0 auto;
+}
+
+.post {
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 5rem;
+  }
+
+  .postContent {
+    max-width: 720px;
+    margin: 0 auto;
+    word-wrap: break-word;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 3.625rem;
+    }
+
+    .timeContainer {
+      display: flex;
+      margin: 1.5rem 0 4rem;
+
+      div {
+        color: var(--info);
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+
+        svg {
+          margin-right: 0.5rem;
+        }
+
+        & + div {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+
+    div {
+      color: var(--body);
+
+      strong {
+        display: block;
+        color: var(--heading);
+        font-size: 2.25rem;
+        line-height: 140%;
+        margin-bottom: 2.5rem;
+      }
+    }
+  }
+}

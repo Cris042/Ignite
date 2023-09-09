@@ -1,0 +1,21 @@
+.container {
+  height: 6.563rem;
+  max-width: 720px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--gray-700);
+  background: var(--gray-900);
+}
+
+.content {
+  max-width: 1120px;
+  height: 6.563rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+  }
+}
