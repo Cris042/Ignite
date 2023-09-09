@@ -3,5 +3,8 @@
   Ignite 
 </h2>
 <p align="center">
-Repositório para listar meus repositórios dos projetos e desafios feitos no Ignite 
+Durante o Bootcamp Ignite, tive a oportunidade de elabora projetos práticos nos quais pude aplicar habilidades em diversas áreas, incluindo o desenvolvimento de aplicativos móveis, a criação de APIs e desenvolvimento web. 
+  
+✓ Api Rest; ✓ SOLID; ✓ Node; ✓ Jest; ✓ Prisma; ✓ Nest.js; ✓ Redis; ✓ Websocket; ✓ Express; ✓ React.js; ✓ Next.js; ✓ Firebase;
+
 </p>
